@@ -1,0 +1,63 @@
+@import url("/home/silbato/.cache/wal/colors-waybar.css");
+
+* {
+    font-family: 'Radio Canada Big', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+window#waybar {
+    background-color: transparent;
+    color: @background;
+}
+
+#workspaces button.visible {
+    color: @foreground;
+}
+
+#workspaces button {
+    color: @color3;
+}
+
+#workspaces {
+    background-color: @background;
+    padding: 0 0 0 0;
+}
+
+.modules-left {
+    margin-left: 12px;    
+}
+
+.modules-right {
+    margin-right: 12px;    
+}
+
+#battery,
+#pulseaudio,
+#backlight,
+#network {
+    color: @color3; /* color2 */
+    background-color: @background; /* background */
+    margin: 0 0px 0 0px;
+    padding: 0 15px 0 15px; /* top, right, bottom, left */
+}
+
+#clock {
+    color: @color3; /* color3 */
+    background-color: @background; /* background */
+    margin: 0 15px 0 0;
+    padding: 0 15px 0 15px;
+}
+
+#network {
+    color: @color3; /* color4 */
+}
+
+#pulseaudio {
+    color: @color3; /* color5 */
+}
+
+#backlight {
+    color: @color3; /* color5 */
+}
